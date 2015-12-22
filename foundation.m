@@ -2,6 +2,15 @@
 #import <Foundation/Foundation.h>
 
 @implementation NSDictionary (Log)
+
+- (void)
+{
+    int a = 10;
+}
+
+
+
+
 - (NSString *)descriptionWithLocale:(id)locale
 {
     NSMutableString *str = [NSMutableString string];
